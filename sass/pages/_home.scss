@@ -1,0 +1,27 @@
+.section-about {
+    background-color: $color-grey-light-1;
+    padding: 25rem 0;
+    margin-top: -15vh;
+}
+
+.section-genres {
+    padding: 20rem 0;
+    background-image: linear-gradient(to right, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), url(/img/bg2.jpg);
+    background-size: cover;
+    transform: skewY(-7deg);
+    margin-top: -9rem;
+    & > * {
+        transform: skewY(7deg);   
+    }
+}
+
+.underrated {
+    background-color: $color-grey-light-1;
+    padding: 25rem 0 15rem 0;
+    margin-top: -10rem;
+}
+
+.comments {
+    position: relative;
+    padding: 15rem 0;
+}
