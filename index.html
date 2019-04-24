@@ -10,6 +10,22 @@
     <title>Anime Info</title>
 </head>
 <body>
+    <div class="navigation">
+        <input type="checkbox" id="navi-toggle" class="navigation__checkbox">
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link">Anime</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Manga</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Community</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Store</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Help</a></li>
+            </ul>
+        </nav>
+    </div>
     <header class="header">
         <div class="header__logo-box">
             <img src="./img/logo.png" alt="Logo" class="header__logo">
@@ -184,6 +200,69 @@
                 <a href="#" class="btn-text">Read all comments &rarr;</a>
             </div>
         </section>
+        <section class="review">
+            <div class="row">
+                <div class="add">
+                    <div class="add__form">
+                        <form action="#" class="form">
+                            <div class="u-margin-bottom-medium">
+                                <h2 class="heading-secondary">Add Your Anime</h2>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Username" id="uname" required autocomplete="off">
+                                <label for="unam" class="form__label">Username</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="email" class="form__input" placeholder="Email address" id="email" required autocomplete="off">
+                                <label for="email" class="form__label">Username</label>
+                            </div>
+                            <div class="form__group u-margin-bottom-medium">
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="casual" name="type">
+                                    <label for="casual" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Casual Pleb
+                                    </label>
+                                </div>
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="weeb" name="type">
+                                    <label for="weeb" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Filthy Weeb
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form__group">
+                                <button class="btn btn--red">Next Step &rarr;</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="footer__logo-box">
+            <img src="./img/logo.png" alt="Logo" class="footer__logo">
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">    
+                <p class="footer__copyright">
+                    Built by <a href="#" class="footer__link">Mayank</a> for learning <a href="#" class="footer__link">SASS and Advanced CSS</a>. Copyright &copy; Mayank Mishra. You are 100% allowed to use this webpage for both personal and commercial use, but not to claim it as your own design. A credit to the original author, Mayank Mishra, would be highly appreciated!
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
